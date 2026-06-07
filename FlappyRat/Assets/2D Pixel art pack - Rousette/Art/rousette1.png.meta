@@ -138,7 +138,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 400
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -169,7 +169,7 @@ TextureImporter:
     overridden: 0
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
     maxTextureSize: 2048
@@ -182,7 +182,7 @@ TextureImporter:
     overridden: 0
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Android
     maxTextureSize: 2048
@@ -204,9 +204,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 155
-        y: 2381
+        y: 2385
         width: 638
-        height: 1711
+        height: 1707
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -226,8 +226,8 @@ TextureImporter:
         serializedVersion: 2
         x: 970
         y: 3649
-        width: 1253
-        height: 609
+        width: 1248
+        height: 607
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -245,10 +245,10 @@ TextureImporter:
       name: rousette1_2
       rect:
         serializedVersion: 2
-        x: 2419
+        x: 2421
         y: 3726
-        width: 611
-        height: 402
+        width: 609
+        height: 399
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -266,10 +266,10 @@ TextureImporter:
       name: rousette1_3
       rect:
         serializedVersion: 2
-        x: 3168
+        x: 3170
         y: 3408
-        width: 644
-        height: 1028
+        width: 636
+        height: 1027
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -309,9 +309,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1351
-        y: 3147
-        width: 264
-        height: 261
+        y: 3146
+        width: 262
+        height: 262
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -332,7 +332,7 @@ TextureImporter:
         x: 1736
         y: 3144
         width: 262
-        height: 264
+        height: 262
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -415,7 +415,7 @@ TextureImporter:
         serializedVersion: 2
         x: 4558
         y: 2395
-        width: 132
+        width: 130
         height: 1260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -521,7 +521,7 @@ TextureImporter:
         x: 2612
         y: 2339
         width: 262
-        height: 518
+        height: 516
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -540,9 +540,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 3023
-        y: 2708
+        y: 2707
         width: 122
-        height: 123
+        height: 124
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -561,9 +561,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 3404
-        y: 2418
-        width: 90
-        height: 350
+        y: 2423
+        width: 86
+        height: 345
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -581,10 +581,10 @@ TextureImporter:
       name: rousette1_18
       rect:
         serializedVersion: 2
-        x: 3661
+        x: 3662
         y: 2425
-        width: 89
-        height: 638
+        width: 88
+        height: 633
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -624,9 +624,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 4322
-        y: 2382
+        y: 2388
         width: 95
-        height: 638
+        height: 632
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -749,9 +749,9 @@ TextureImporter:
       name: rousette1_26
       rect:
         serializedVersion: 2
-        x: 1832
+        x: 1831
         y: 1472
-        width: 1039
+        width: 1040
         height: 675
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -770,9 +770,9 @@ TextureImporter:
       name: rousette1_27
       rect:
         serializedVersion: 2
-        x: 3176
+        x: 3180
         y: 1306
-        width: 1017
+        width: 1013
         height: 965
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -812,10 +812,10 @@ TextureImporter:
       name: rousette1_29
       rect:
         serializedVersion: 2
-        x: 2570
-        y: 141
-        width: 927
-        height: 1072
+        x: 2573
+        y: 144
+        width: 924
+        height: 1069
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
