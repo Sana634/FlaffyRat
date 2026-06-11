@@ -5,7 +5,7 @@ using UnityEngine.Tilemaps;
 
 
 
-public class UpdateColumn : MonoBehaviour
+public class MoveColumns : MonoBehaviour
 {
     [SerializeField] private float speed;
     void Start()
