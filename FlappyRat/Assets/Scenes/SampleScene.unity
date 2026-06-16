@@ -380,6 +380,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   columnPrefab: {fileID: 3341266258648763525, guid: e3eed2c073300a549911a58bab6bc8b8, type: 3}
   spawnRate: 2
+  gapSize: 3
+  minGapCenterY: -1
+  maxGapCenterY: 2
 --- !u!1001 &990592264
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -388,13 +391,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 785408077}
     m_Modifications:
+    - target: {fileID: 1999871722176295789, guid: e3eed2c073300a549911a58bab6bc8b8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3341266258648763525, guid: e3eed2c073300a549911a58bab6bc8b8, type: 3}
       propertyPath: m_Name
       value: ColumnPrefab
       objectReference: {fileID: 0}
     - target: {fileID: 4411818503049579120, guid: e3eed2c073300a549911a58bab6bc8b8, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.0146768
+      value: -2.78
       objectReference: {fileID: 0}
     - target: {fileID: 4411818503049579120, guid: e3eed2c073300a549911a58bab6bc8b8, type: 3}
       propertyPath: m_LocalPosition.y
@@ -430,6 +437,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4411818503049579120, guid: e3eed2c073300a549911a58bab6bc8b8, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4662787818671647317, guid: e3eed2c073300a549911a58bab6bc8b8, type: 3}
+      propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
