@@ -16,6 +16,9 @@ public class MoveColumns : MonoBehaviour
     
     void Update()
     {
+        if (GameManager.Instance != null && GameManager.Instance.IsGameOver)
+            return;
+
         transform.Translate(Vector2.left * speed * Time.deltaTime);
 
         if (transform.position.x < -19)
