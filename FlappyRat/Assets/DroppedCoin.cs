@@ -12,7 +12,11 @@ public class DroppedCoin : MonoBehaviour
 
     public void Launch(Vector2 velocity)
     {
-        rb.velocity = velocity;
+        if (rb == null)
+            rb = GetComponent<Rigidbody2D>();
+
+        if (rb != null)
+            rb.velocity = velocity;
     }
 
     void Start()
